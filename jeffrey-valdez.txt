@@ -4,42 +4,120 @@ Questions and answer:
 
     1. What is Semantic HTML? 
        - Semantic HTML is what gives the its meaning to it's content.
-    2. What is HTML used for? 
+
+    2. What is HTML used for?
+       - Displaying content to the web
+
     3. What is an attribute and where do we put it? 
+        - Attributes provide additional information about HTML elements
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+       - h1 is used for a main header in the website. You shold use it once.
+
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+       - img tag and the a tag
+
+    6. What do we put in the head of our HTML document?
+       - style sheets, links, meta data
+
     7. What is an id? 
+       -  id attribute is most used to point to a style in a style sheet, and by JavaScript
+
     8. What elements can I add an id to? 
+       - Any element.
+
     9. How many times can I use the same id on a page? 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+       - Once.
+
+    10. What is a class?
+        - class attribute is used to define equal styles for elements with the same class name.
+
+    11. What elements can I add a class to?
+        - Any element
+
+    12. How many times can I use the same class on a page?
+        - As many times as you want. 
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+        - target="_blank"
+
+    14. What is the alt attribute used for?
+        - specifies an alternative text for an image.
+
     15. How do I reference an id?
+        - You use the # followed by the id name.
+
     16. What is the difference between a section and a div
+        - A section specifies a part of the html and gives meaning to be easier to read, a div is more used to style the page
+
     17. What is CSS used for? 
+        - CSS is used for styling your html. Make your HTML come to life
+
     18. How to we select an element? Example - every h2 on the page
+        - Go to your style sheet and write h2{} to select every h2.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - id can be used to identify one element, where a class can be used to identify more than one.
+
     20. How do we select classes in CSS?
+        -  .classname{}
+
     21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+        - .human p{}
+
+    22. What is a parent child selector? When would this be useful?
+        - parent child selector slects all the elements that are a direct child
+        - selecting a specific paragraphs
+
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
+        - line-height.
+
     26. What do we use to change the spacing between letters?
+        - letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - text-transform
+
     28. How do I add a 1px border around my div that is dotted and black?
+        - border: dotted 1px black;
+
     29. How do I select everything on the page? 
+        -
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+        - /* */
+
+    31. How do I find out what file I am in, when I am using the command line?
+        - pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        - ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        - rm file name
+
+    34. Why should I use version control?
+        - Helps track every indivisual change by each contributor.
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        - Every 20 minutes
+
+    36. What is the command we would use to push our repo up to github?
+        - git push
+
     37. Walk me through Lambda's git flow. 
+        - fork a repository
+        - add your tl as contributor
+        - clone the repository to your computer
+        - make a branch 
+        - git checkout -b firstname-lastname
+        - make changes
+        - git status
+        - git add
+        - git commit -m 'message goes here'
+        - git push origin -u firstname-lastname
+        - then you want your team lead to verify
 
 Stretch Questions
 
